@@ -2916,3 +2916,245 @@ The following settings have been applied:
 [2024.12.16-16.14.18:416][674]LogDerivedDataCache: C:/Users/uchenikit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
 [2024.12.16-16.15.48:292][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
 [2024.12.16-16.15.48:293][943]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/Level_3112' took 0.026
+[2024.12.16-16.23.13:446][659]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio_C
+[2024.12.16-16.23.13:446][659]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio_C
+[2024.12.16-16.23.13:450][659]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio as actor: BP_LightStudio_C /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.BP_LightStudio_C_2
+[2024.12.16-16.23.13:453][659]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio as actor: BP_LightStudio_C /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.BP_LightStudio_C_2
+[2024.12.16-16.23.14:771][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.12.16-16.23.14:790][729]LogEditorActor: Deleted 0 Actors (0.052 secs)
+[2024.12.16-16.23.14:797][729]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio_C
+[2024.12.16-16.23.14:797][729]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio_C
+[2024.12.16-16.23.14:801][729]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio as actor: BP_LightStudio_C /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.BP_LightStudio_C_3
+[2024.12.16-16.23.14:805][729]LogActorFactory: Actor Factory spawned Blueprint /Game/StarterContent/Blueprints/BP_LightStudio.BP_LightStudio as actor: BP_LightStudio_C /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.BP_LightStudio_C_3
+[2024.12.16-16.23.16:116][825]Cmd: DELETE
+[2024.12.16-16.23.16:116][825]Cmd: ACTOR DELETE
+[2024.12.16-16.23.16:119][825]LogEditorActor: Deleted Actor: BP_LightStudio_C
+[2024.12.16-16.23.16:147][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.12.16-16.23.16:150][825]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: ================================================
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Total job queries 634, among them cache hits 209 (32.97%), DDC hits 269 (42.43%), Duplicates 42 (6.62%)
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Tracking 383 distinct input hashes that result in 294 distinct outputs (76.76%)
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: RAM used: 10,84 MiB of 819,20 MiB budget. Usage: 1.32%
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Shaders Compiled: 114
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Jobs assigned 114, completed 114 (100%)
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Average time worker was idle: 87.22 s
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Time job spent in pending queue: average 15.32 s, longest 41.88 s
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Job execution time: average 3.87 s, max 8.67 s
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Job life time (pending + execution): average 19.18 s, max 47.06
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Shader code size: average 67,008 KiB, min 4,879 KiB, max 89,422 KiB
+[2024.12.16-16.23.51:247][478]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 82.83 s
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  2.77%
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Jobs were issued in 114 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Average processing rate: 1.38 jobs/sec
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Total thread time: 415,207 s
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Total thread preprocess time: 15,048 s
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Percentage time preprocessing: 3.62%
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Effective parallelization: 5.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:          TBasePassCSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    1 times, average 8.15 sec, max 8.15 sec, min 8.15 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyLQSkylight (compiled    1 times, average 8.08 sec, max 8.08 sec, min 8.08 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:                                 TBasePassCSTLightMapPolicyHQ (compiled    1 times, average 8.08 sec, max 8.08 sec, min 8.08 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 8.06 sec, max 8.06 sec, min 8.06 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:  TBasePassCSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 8.05 sec, max 8.05 sec, min 8.05 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.54% of total time (compiled   12 times, average 2.26 sec, max 6.00 sec, min 0.60 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.40% of total time (compiled    5 times, average 4.49 sec, max 6.11 sec, min 3.84 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.39% of total time (compiled    5 times, average 4.47 sec, max 5.89 sec, min 3.91 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.25% of total time (compiled    5 times, average 4.36 sec, max 6.25 sec, min 3.05 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 5.20% of total time (compiled    5 times, average 4.32 sec, max 5.44 sec, min 3.65 sec)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: === Material stats ===
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Materials Translated:    145
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Material Total Translate Time: 0.75 s
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Material Translation Only: 0.14 s (18%)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: Material Cache Hits: 18 (12%)
+[2024.12.16-16.23.51:248][478]LogShaderCompilers: Display: ================================================
+[2024.12.16-16.24.03:673][787]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.WorldPartitionMiniMapVolume
+[2024.12.16-16.24.03:673][787]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.WorldPartitionMiniMapVolume
+[2024.12.16-16.24.03:708][787]LogActorFactory: Actor Factory spawned Class /Script/Engine.WorldPartitionMiniMapVolume as actor: WorldPartitionMiniMapVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.WorldPartitionMiniMapVolume_0
+[2024.12.16-16.24.03:770][787]LogActorFactory: Actor Factory spawned Class /Script/Engine.WorldPartitionMiniMapVolume as actor: WorldPartitionMiniMapVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.WorldPartitionMiniMapVolume_0
+[2024.12.16-16.24.04:739][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.12.16-16.24.04:741][888]LogEditorActor: Deleted 0 Actors (0.037 secs)
+[2024.12.16-16.24.04:747][888]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.WorldPartitionMiniMapVolume
+[2024.12.16-16.24.04:747][888]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.WorldPartitionMiniMapVolume
+[2024.12.16-16.24.04:748][888]LogActorFactory: Actor Factory spawned Class /Script/Engine.WorldPartitionMiniMapVolume as actor: WorldPartitionMiniMapVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.WorldPartitionMiniMapVolume_1
+[2024.12.16-16.24.04:749][888]LogActorFactory: Actor Factory spawned Class /Script/Engine.WorldPartitionMiniMapVolume as actor: WorldPartitionMiniMapVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.WorldPartitionMiniMapVolume_1
+[2024.12.16-16.24.06:319][ 61]Cmd: DELETE
+[2024.12.16-16.24.06:319][ 61]Cmd: ACTOR DELETE
+[2024.12.16-16.24.06:356][ 61]LogEditorActor: Deleted Actor: WorldPartitionMiniMapVolume
+[2024.12.16-16.24.06:379][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.12.16-16.24.06:381][ 61]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2024.12.16-16.24.18:789][423]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LevelStreamingVolume
+[2024.12.16-16.24.18:789][423]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LevelStreamingVolume
+[2024.12.16-16.24.18:789][423]LogActorFactory: Actor Factory spawned Class /Script/Engine.LevelStreamingVolume as actor: LevelStreamingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.LevelStreamingVolume_0
+[2024.12.16-16.24.18:790][423]LogActorFactory: Actor Factory spawned Class /Script/Engine.LevelStreamingVolume as actor: LevelStreamingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.LevelStreamingVolume_0
+[2024.12.16-16.24.18:894][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.16-16.24.18:896][427]LogEditorActor: Deleted 0 Actors (0.036 secs)
+[2024.12.16-16.24.18:902][427]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LevelStreamingVolume
+[2024.12.16-16.24.18:902][427]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LevelStreamingVolume
+[2024.12.16-16.24.18:903][427]LogActorFactory: Actor Factory spawned Class /Script/Engine.LevelStreamingVolume as actor: LevelStreamingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.LevelStreamingVolume_1
+[2024.12.16-16.24.18:904][427]LogActorFactory: Actor Factory spawned Class /Script/Engine.LevelStreamingVolume as actor: LevelStreamingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.LevelStreamingVolume_1
+[2024.12.16-16.24.23:498][959]Cmd: DELETE
+[2024.12.16-16.24.23:498][959]Cmd: ACTOR DELETE
+[2024.12.16-16.24.23:500][959]LogEditorActor: Deleted Actor: LevelStreamingVolume
+[2024.12.16-16.24.23:528][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.12.16-16.24.23:530][959]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2024.12.16-16.24.33:258][ 77]LogActorFactory: Actor Factory attempting to spawn Class /Script/UnrealEd.HierarchicalLODVolume
+[2024.12.16-16.24.33:258][ 77]LogActorFactory: Actor Factory attempting to spawn Class /Script/UnrealEd.HierarchicalLODVolume
+[2024.12.16-16.24.33:258][ 77]LogActorFactory: Actor Factory spawned Class /Script/UnrealEd.HierarchicalLODVolume as actor: HierarchicalLODVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.HierarchicalLODVolume_0
+[2024.12.16-16.24.33:259][ 77]LogActorFactory: Actor Factory spawned Class /Script/UnrealEd.HierarchicalLODVolume as actor: HierarchicalLODVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.HierarchicalLODVolume_0
+[2024.12.16-16.24.34:124][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.12.16-16.24.34:125][174]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2024.12.16-16.24.34:131][174]LogActorFactory: Actor Factory attempting to spawn Class /Script/UnrealEd.HierarchicalLODVolume
+[2024.12.16-16.24.34:131][174]LogActorFactory: Actor Factory attempting to spawn Class /Script/UnrealEd.HierarchicalLODVolume
+[2024.12.16-16.24.34:133][174]LogActorFactory: Actor Factory spawned Class /Script/UnrealEd.HierarchicalLODVolume as actor: HierarchicalLODVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.HierarchicalLODVolume_1
+[2024.12.16-16.24.34:134][174]LogActorFactory: Actor Factory spawned Class /Script/UnrealEd.HierarchicalLODVolume as actor: HierarchicalLODVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.HierarchicalLODVolume_1
+[2024.12.16-16.24.34:644][222]Cmd: DELETE
+[2024.12.16-16.24.34:644][222]Cmd: ACTOR DELETE
+[2024.12.16-16.24.34:646][222]LogEditorActor: Deleted Actor: HierarchicalLODVolume
+[2024.12.16-16.24.34:668][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.12.16-16.24.34:670][222]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2024.12.16-16.24.42:632][ 66]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.MeshMergeCullingVolume
+[2024.12.16-16.24.42:632][ 66]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.MeshMergeCullingVolume
+[2024.12.16-16.24.42:633][ 66]LogActorFactory: Actor Factory spawned Class /Script/Engine.MeshMergeCullingVolume as actor: MeshMergeCullingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.MeshMergeCullingVolume_0
+[2024.12.16-16.24.42:633][ 66]LogActorFactory: Actor Factory spawned Class /Script/Engine.MeshMergeCullingVolume as actor: MeshMergeCullingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.MeshMergeCullingVolume_0
+[2024.12.16-16.24.43:261][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.16-16.24.43:262][133]LogEditorActor: Deleted 0 Actors (0.033 secs)
+[2024.12.16-16.24.43:268][133]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.MeshMergeCullingVolume
+[2024.12.16-16.24.43:268][133]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.MeshMergeCullingVolume
+[2024.12.16-16.24.43:270][133]LogActorFactory: Actor Factory spawned Class /Script/Engine.MeshMergeCullingVolume as actor: MeshMergeCullingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.MeshMergeCullingVolume_1
+[2024.12.16-16.24.43:271][133]LogActorFactory: Actor Factory spawned Class /Script/Engine.MeshMergeCullingVolume as actor: MeshMergeCullingVolume /Game/VRTemplate/Maps/Level_3112.Level_3112:PersistentLevel.MeshMergeCullingVolume_1
+[2024.12.16-16.24.45:340][367]Cmd: DELETE
+[2024.12.16-16.24.45:340][367]Cmd: ACTOR DELETE
+[2024.12.16-16.24.45:342][367]LogEditorActor: Deleted Actor: MeshMergeCullingVolume
+[2024.12.16-16.24.45:369][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.12.16-16.24.45:371][367]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.12.16-16.25.48:737][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.12.16-16.25.48:745][741]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/Level_3112_Auto3
+[2024.12.16-16.25.48:745][741]LogSavePackage: Moving '../../../../../Kukoverova_VR_repo/Kukoverova/Kukoverova_Veronika/Saved/Level_3112_Auto36AA9274D4D05F2C0472D3C9D260B349B.tmp' to '../../../../../Kukoverova_VR_repo/Kukoverova/Kukoverova_Veronika/Saved/Autosaves/Game/VRTemplate/Maps/Level_3112_Auto3.umap'
+[2024.12.16-16.25.48:745][741]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../Kukoverova_VR_repo/Kukoverova/Kukoverova_Veronika/Saved/Autosaves/Game/VRTemplate/Maps/Level_3112_Auto3.umap is in the /Temp path, will not scan.
+[2024.12.16-16.25.48:746][741]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/VRTemplate/Maps/Level_3112_Auto3 is in the /Temp path, will not scan.
+[2024.12.16-16.25.48:746][741]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/VRTemplate/Maps/Level_3112_Auto3 is in the /Temp path, will not scan.
+[2024.12.16-16.25.48:746][741]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/Level_3112' took 0.036
+[2024.12.16-16.25.48:746][741]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2024.12.16-16.26.02:837][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.26.02:985][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.16-16.26.02:993][958]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/Level_3112
+[2024.12.16-16.26.02:993][958]LogSavePackage: Moving '../../../../../Kukoverova_VR_repo/Kukoverova/Kukoverova_Veronika/Saved/Level_3112E6D18B154F0D95673A8BEF976CD9C9D0.tmp' to '../../../../../Kukoverova_VR_repo/Kukoverova/Kukoverova_Veronika/Content/VRTemplate/Maps/Level_3112.umap'
+[2024.12.16-16.26.03:014][958]Message dialog closed, result: Ok, title: Извлечение из системы контроля версий не удалось!, text: Следующие ресурсы не удалось извлечь из системы контроля версий:
+/Game/VRTemplate/Maps/Level_3112_BuiltData
+[2024.12.16-16.26.03:014][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.16-16.26.03:014][958]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VRTemplate/Maps/Level_3112_BuiltData] ([1] browsable assets)...
+[2024.12.16-16.26.03:014][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Maps/Level_3112_BuiltData]
+[2024.12.16-16.26.03:048][958]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/Level_3112_BuiltData
+[2024.12.16-16.26.03:048][958]LogSavePackage: Moving '../../../../../Kukoverova_VR_repo/Kukoverova/Kukoverova_Veronika/Saved/Level_3112_BuiltDataAC4DF84846CA0CB6870A97B1587A729A.tmp' to '../../../../../Kukoverova_VR_repo/Kukoverova/Kukoverova_Veronika/Content/VRTemplate/Maps/Level_3112_BuiltData.uasset'
+[2024.12.16-16.26.03:050][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.007 ms (total: 624.013 ms)
+[2024.12.16-16.26.03:050][958]Message dialog closed, result: Ok, title: Извлечение из системы контроля версий не удалось!, text: Следующие ресурсы не удалось извлечь из системы контроля версий:
+/Game/VRTemplate/Maps/Level_3112_BuiltData
+[2024.12.16-16.26.03:050][958]LogFileHelpers: Saving map 'Level_3112' took 0.154
+[2024.12.16-16.26.03:055][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 217.657 ms (total: 841.670 ms)
+[2024.12.16-16.26.03:096][958]LogContentValidation: Display: Starting to validate 2 assets
+[2024.12.16-16.26.03:096][958]LogContentValidation: Enabled validators:
+[2024.12.16-16.26.03:096][958]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.16-16.26.03:096][958]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.16-16.26.03:096][958]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.16-16.26.03:096][958]LogContentValidation: Display: Validating asset /Game/VRTemplate/Maps/Level_3112.Level_3112
+[2024.12.16-16.26.03:096][958]AssetCheck: /Game/VRTemplate/Maps/Level_3112 Проверка ресурса
+[2024.12.16-16.26.03:096][958]LogContentValidation: Display: Validating asset /Game/VRTemplate/Maps/Level_3112_BuiltData.Level_3112_BuiltData
+[2024.12.16-16.26.03:096][958]AssetCheck: /Game/VRTemplate/Maps/Level_3112_BuiltData Проверка ресурса
+[2024.12.16-16.26.04:373][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.16-16.26.04:402][ 95]LogStall: Shutdown...
+[2024.12.16-16.26.04:410][ 95]LogStall: Shutdown complete.
+[2024.12.16-16.26.04:449][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.12.16-16.26.04:449][ 95]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:449][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:540][ 95]LogSlate: Window 'Kukoverova_Veronika — Unreal Editor' being destroyed
+[2024.12.16-16.26.04:650][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.12.16-16.26.04:663][ 95]Cmd: QUIT_EDITOR
+[2024.12.16-16.26.04:663][ 96]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.12.16-16.26.04:664][ 96]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.12.16-16.26.04:665][ 96]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.12.16-16.26.04:665][ 96]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.12.16-16.26.04:665][ 96]LogWorld: UWorld::CleanupWorld for Level_3112, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:666][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:666][ 96]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.12.16-16.26.04:666][ 96]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.12.16-16.26.04:820][ 96]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.12.16-16.26.04:870][ 96]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:870][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:874][ 96]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:874][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:878][ 96]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:878][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:881][ 96]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:881][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:885][ 96]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:915][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:919][ 96]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:919][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:922][ 96]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:923][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:926][ 96]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:937][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:941][ 96]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:941][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.04:945][ 96]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-16.26.04:945][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-16.26.05:095][ 96]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.12.16-16.26.05:143][ 96]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.12.16-16.26.05:143][ 96]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.12.16-16.26.05:143][ 96]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.12.16-16.26.06:174][ 96]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.12.16-16.26.06:174][ 96]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.12.16-16.26.06:174][ 96]LogAudio: Display: Audio Device unregistered from world 'Level_3112'.
+[2024.12.16-16.26.06:174][ 96]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.12.16-16.26.06:174][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.16-16.26.06:177][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.16-16.26.06:188][ 96]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.12.16-16.26.06:188][ 96]LogAudio: Display: Audio Device Manager Shutdown
+[2024.12.16-16.26.06:189][ 96]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2024.12.16-16.26.06:191][ 96]LogExit: Preparing to exit.
+[2024.12.16-16.26.06:241][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2024.12.16-16.26.06:245][ 96]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:245][ 96]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:250][ 96]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:252][ 96]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:253][ 96]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:253][ 96]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:253][ 96]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:253][ 96]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:253][ 96]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:253][ 96]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:254][ 96]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:255][ 96]LogPython: Display: Object '/Engine/PythonTypes.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.06:255][ 96]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.16-16.26.07:377][ 96]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.12.16-16.26.07:407][ 96]LogExit: Editor shut down
+[2024.12.16-16.26.07:410][ 96]LogExit: Transaction tracking system shut down
+[2024.12.16-16.26.07:753][ 96]LogExit: Object subsystem successfully closed.
+[2024.12.16-16.26.07:800][ 96]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.12.16-16.26.08:866][ 96]MemoryProfiler: Shutdown
+[2024.12.16-16.26.08:866][ 96]NetworkingProfiler: Shutdown
+[2024.12.16-16.26.08:866][ 96]LoadingProfiler: Shutdown
+[2024.12.16-16.26.08:866][ 96]TimingProfiler: Shutdown
+[2024.12.16-16.26.09:128][ 96]LogOpenImageDenoise: OIDN shutting down
+[2024.12.16-16.26.10:321][ 96]RenderDocPlugin: plugin has been unloaded.
+[2024.12.16-16.26.10:331][ 96]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.12.16-16.26.10:331][ 96]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCB3C83A8-4026-FE45-E18D-F0B27006D1A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=855dab254ac829e56d6b9399a4b7f3a8%7Ca915e32552824d1c993f37123e1a6602%7C4cc47a0e-5788-44a4-bd56-2bea4d935a82&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.12.16-16.26.10:340][ 96]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.12.16-16.26.10:346][ 96]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.12.16-16.26.10:416][ 96]LogPakFile: Destroying PakPlatformFile
+[2024.12.16-16.26.11:540][ 96]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.12.16-16.26.11:625][ 96]LogExit: Exiting.
+[2024.12.16-16.26.11:671][ 96]Log file closed, 12/16/24 19:26:11
