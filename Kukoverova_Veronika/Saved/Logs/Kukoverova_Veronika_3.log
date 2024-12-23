@@ -2817,3 +2817,110 @@ The following settings have been applied:
 [2024.12.23-16.29.16:992][737]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.12.23-16.29.16:992][737]LogContentValidation: Display: Validating asset /Game/VRTemplate/Maps/Level_3112.Level_3112
 [2024.12.23-16.29.16:993][737]AssetCheck: /Game/VRTemplate/Maps/Level_3112 Проверка ресурса
+[2024.12.23-16.30.03:321][710]Cmd: MAP REBUILD ALLVISIBLE
+[2024.12.23-16.30.03:325][710]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2024.12.23-16.30.03:468][710]LogWorld: UWorld::CleanupWorld for Level_3112, bSessionEnded=true, bCleanupResources=true
+[2024.12.23-16.30.03:468][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.23-16.30.03:468][710]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.12.23-16.30.03:468][710]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.12.23-16.30.03:469][710]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.12.23-16.30.03:470][710]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/VRTemplate/Maps/Level_3112.Level_3112'.
+[2024.12.23-16.30.03:612][710]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2024.12.23-16.30.03:641][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.12.23-16.30.54:423][710]LogLevel: Display: Export Material TexCoord Scales took 0.254 seconds.
+[2024.12.23-16.30.54:430][710]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2024.12.23-16.30.54:456][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.12.23-16.30.55:001][710]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.12.23-16.30.56:133][710]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.12.23-16.30.56:157][710]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.12.23-16.30.58:219][710]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.12.23-16.30.58:219][710]LogSwarmInterface: [TryOpenConnection] Local Process ID is 15160
+[2024.12.23-16.31.16:832][710]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.12.23-16.31.16:832][710]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.12.23-16.31.16:832][710]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.12.23-16.31.16:832][710]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.12.23-16.31.16:832][710]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.12.23-16.31.16:832][710]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.12.23-16.31.16:985][710]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2024.12.23-16.31.16:986][710]MapCheck: Error: WorldSettings Необходимо перестроить освещение для карт 
+[2024.12.23-16.31.17:107][710]MapCheck: Warning: StaticMeshActor_43 StaticMeshActor_43 находится в том же месте, что и StaticMeshActor_44 
+[2024.12.23-16.31.17:107][710]MapCheck: Warning: StaticMeshActor_44 StaticMeshActor_44 находится в том же месте, что и StaticMeshActor_43 
+[2024.12.23-16.31.17:107][710]MapCheck: Проверка карты завершена: 1 ошибок, 2 предупреждений, выполнена за 121,776 мс.
+[2024.12.23-16.31.17:107][710]LogEditorBuildUtils: Build time 1:13
+[2024.12.23-16.31.18:655][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.12.23-16.31.24:509][182]LogSlate: Window 'Журнал сообщений' being destroyed
+[2024.12.23-16.31.24:515][182]LogSlate: Window 'Журнал сообщений' being destroyed
+[2024.12.23-16.31.35:422][574]Job is a success!
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.017s
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:      Bricks at depth
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:          0: 5.3% covering 100.0% of volume
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:          1: 5.3% covering 1.6% of volume
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:          2: 89.5% covering 0.4% of volume
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:      Bricks in each level
+[2024.12.23-16.31.36:192][575]LogVolumetricLightmapImport:          Level_3112 			 19 bricks 	 100.0% (Persistent Level)
+[2024.12.23-16.31.36:355][575]LogTexture: Display: Texture was not found in DDC and couldn't build as the texture source was unable to load or validate (/Game/VRTemplate/Maps/Level_3112_BuiltData.Level_3112_BuiltData:HQ_Lightmap1_1)
+[2024.12.23-16.31.36:355][575]LogTexture: Display: Texture Data Blocks: 1 Layers: 1 Mips: 0
+[2024.12.23-16.31.36:355][575]LogTexture: Display: Texture was not found in DDC and couldn't build as the texture source was unable to load or validate (/Game/VRTemplate/Maps/Level_3112_BuiltData.Level_3112_BuiltData:LQ_Lightmap_1_1)
+[2024.12.23-16.31.36:355][575]LogTexture: Display: Texture Data Blocks: 1 Layers: 1 Mips: 0
+[2024.12.23-16.31.36:356][575]LogTexture: Display: Создание текстур: /Game/VRTemplate/Maps/Level_3112_BuiltData.Level_3112_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (требуемый объём памяти: 102.979156 МБайт), Скорость кодирования: Fast
+[2024.12.23-16.31.36:377][575]LogTexture: Display: Создание текстур: /Game/VRTemplate/Maps/Level_3112_BuiltData.Level_3112_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 1024x1024 x1x1x1) (требуемый объём памяти: 115.979155 МБайт), Скорость кодирования: Fast
+[2024.12.23-16.31.36:456][575]LogTexture: Display: Texture was not found in DDC and couldn't build as the texture source was unable to load or validate (/Game/VRTemplate/Maps/Level_3112_BuiltData.Level_3112_BuiltData:ShadowMapTexture2D_0)
+[2024.12.23-16.31.36:456][575]LogTexture: Display: Texture Data Blocks: 1 Layers: 1 Mips: 0
+[2024.12.23-16.31.36:456][575]LogTexture: Display: Создание текстур: /Game/VRTemplate/Maps/Level_3112_BuiltData.Level_3112_BuiltData:ShadowMapTexture2D_0 (BGRA8, 1024x256 x1x1x1) (требуемый объём памяти: 8.0625 МБайт), Скорость кодирования: Fast
+[2024.12.23-16.31.36:470][575]Lightmass on K411: 16.7 sec total, 14.2 sec importing, 7.079 ms setup, 228.720 ms photons, 2.25 sec processing, 0 us extra exporting [33/33 mappings]. Threads: 24.7 sec total, 7.87 sec processing.
+[2024.12.23-16.31.36:558][575]LogStaticLightingSystem: Level_3112_BuiltData storing lightmap data for 33 meshes in 2 LightmapResourceClusters (16.5 Meshes per cluster).
+[2024.12.23-16.31.36:601][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.12.23-16.31.36:611][575]LogStaticLightingSystem: Illumination: 41.7 sec (141.529 ms encoding lightmaps, 67.189 ms encoding shadowmaps)
+[2024.12.23-16.31.36:611][575]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.12.23-16.31.36:611][575]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.4 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.12.23-16.31.36:731][575]DumpUnbuiltLightIteractions
+[2024.12.23-16.31.36:731][575]Lights with unbuilt interactions: 0
+[2024.12.23-16.31.36:732][575]
+[2024.12.23-16.31.36:732][575]Primitives with unbuilt interactions: 0
+[2024.12.23-16.31.37:745][575]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.12.23-16.31.37:745][575]MapCheck: Warning: StaticMeshActor_43 StaticMeshActor_43 находится в том же месте, что и StaticMeshActor_44 
+[2024.12.23-16.31.37:745][575]MapCheck: Warning: StaticMeshActor_44 StaticMeshActor_44 находится в том же месте, что и StaticMeshActor_43 
+[2024.12.23-16.31.37:745][575]MapCheck: Проверка карты завершена: 0 ошибок, 2 предупреждений, выполнена за 0,605 мс.
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: ================================================
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Total job queries 1 413, among them cache hits 535 (37.86%), DDC hits 376 (26.61%), Duplicates 136 (9.62%)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Tracking 742 distinct input hashes that result in 505 distinct outputs (68.06%)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: RAM used: 19,00 MiB of 819,20 MiB budget. Usage: 2.32%
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Shaders Compiled: 366
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Jobs assigned 366, completed 366 (100%)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Average time worker was idle: 111.86 s
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Time job spent in pending queue: average 10.46 s, longest 46.30 s
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Job execution time: average 4.85 s, max 14.09 s
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Job life time (pending + execution): average 15.31 s, max 49.53
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Shader code size: average 55,722 KiB, min 3,547 KiB, max 78,945 KiB
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 181.74 s
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.13%
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Jobs were issued in 245 batches (only local compilation was used), average 1.49 jobs/batch
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Average processing rate: 2.01 jobs/sec
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Total thread time: 684,992 s
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Total thread preprocess time: 30,898 s
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Percentage time preprocessing: 4.51%
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    9 times, average 4.19 sec, max 4.42 sec, min 4.01 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    5 times, average 4.17 sec, max 4.45 sec, min 3.95 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    6 times, average 4.14 sec, max 4.42 sec, min 3.95 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    9 times, average 4.13 sec, max 4.43 sec, min 3.84 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    9 times, average 4.12 sec, max 4.46 sec, min 3.85 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.77% of total time (compiled   65 times, average 1.24 sec, max 4.13 sec, min 0.60 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.53% of total time (compiled   36 times, average 2.19 sec, max 3.05 sec, min 1.23 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.44% of total time (compiled   26 times, average 2.75 sec, max 4.36 sec, min 0.86 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.50% of total time (compiled    9 times, average 4.19 sec, max 4.42 sec, min 4.01 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.43% of total time (compiled    9 times, average 4.13 sec, max 4.43 sec, min 3.84 sec)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: === Material stats ===
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Materials Translated:    289
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Material Total Translate Time: 1.01 s
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Material Translation Only: 0.22 s (22%)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: Material Cache Hits: 36 (12%)
+[2024.12.23-16.31.38:092][577]LogShaderCompilers: Display: ================================================
