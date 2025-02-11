@@ -1115,3 +1115,14 @@ The following settings have been applied:
 [2025.02.11-16.25.00:244][813]NetworkingProfiler: Shutdown
 [2025.02.11-16.25.00:244][813]LoadingProfiler: Shutdown
 [2025.02.11-16.25.00:244][813]TimingProfiler: Shutdown
+[2025.02.11-16.25.00:396][813]LogOpenImageDenoise: OIDN shutting down
+[2025.02.11-16.25.01:050][813]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.02.11-16.25.01:062][813]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.02.11-16.25.01:062][813]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B875391AA-4FCB-5807-A029-8DBB6F9788EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=855dab254ac829e56d6b9399a4b7f3a8%7Ca915e32552824d1c993f37123e1a6602%7C4cc47a0e-5788-44a4-bd56-2bea4d935a82&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.02.11-16.25.01:077][813]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.02.11-16.25.01:084][813]RenderDocPlugin: plugin has been unloaded.
+[2025.02.11-16.25.01:084][813]LogXGEController: Cleaning working directory: C:/Users/uchenikit/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.02.11-16.25.01:086][813]LogPakFile: Destroying PakPlatformFile
+[2025.02.11-16.25.01:124][813]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.02.11-16.25.01:139][813]LogExit: Exiting.
+[2025.02.11-16.25.01:166][813]Log file closed, 02/11/25 19:25:01
